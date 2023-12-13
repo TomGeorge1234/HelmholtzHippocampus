@@ -1,8 +1,6 @@
 import numpy as np
-import sys
 import time
 import copy
-import traceback
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import ImageGrid
@@ -15,9 +13,9 @@ import tomplotlib as tpl
 
 ratinabox.stylize_plots()
 ratinabox.autosave_plots = True
-ratinabox.figure_directory = "../figures/"
+ratinabox.figure_directory = "./figures/"
 
-tpl.figure_directory = "../figures/"
+tpl.figure_directory = "./figures/"
 tpl.set_colorscheme("viridis", 5)
 
 
